@@ -28,7 +28,23 @@
 
 </head>
 
-<body>
+<body onload="openPopup()">
+
+  <div id="myPopup" class="popup">
+    <a href="https://forms.gle/ymsgaxGkfdrzwE4m9" target="_blank"> <img src="assets/img/ideathon.jpeg" width="450" height="450" > </a>
+    <br><br>
+    <button onclick="closePopup()" class="buttoncontainer">Close</button>
+</div>
+<script>
+    // JavaScript functions to open and close the popup
+    function openPopup() {
+        document.getElementById("myPopup").style.display = "block";
+    }
+
+    function closePopup() {
+        document.getElementById("myPopup").style.display = "none";
+    }
+</script>
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center ">
@@ -44,7 +60,8 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Ideathon`24</a></li>
-          <li><a class="nav-link scrollto" href="#schedule">Events</a></li>
+          <li><a class="nav-link scrollto" href="
+#schedule">Events</a></li>
           
           <li><a class="nav-link scrollto" href="#venue">Speaker</a></li>
          
