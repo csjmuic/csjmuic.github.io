@@ -33,7 +33,10 @@
   <div id="myPopup" class="popup">
     <a href="https://forms.gle/ymsgaxGkfdrzwE4m9" target="_blank"> <img src="assets/img/ideathon.jpeg" width="410" height="410" > </a>
     <br><br>
-    <button onclick="closePopup()" class="buttoncontainer">Close</button>
+    <!-- <button onclick="closePopup()" class="buttoncontainer"></button> -->
+     <button onclick="closePopup()" class="close-button" aria-label="Dismiss alert" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
 </div>
 <script>
     // JavaScript functions to open and close the popup
