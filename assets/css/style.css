@@ -69,17 +69,22 @@ h6 {
         justify-content: center;
         align-items: center;
 /*        height: 100vh; /* Adjust as needed */*/
+      /* right: 150px;
+       margin-left: 50px;*/
     }
 
     /* Optional styling for the button */
     button {
         padding: 10px 20px;
-        font-size: 16px;
-        background-color: #007bff;
+        font-size: 15px;
+        background-color: #EE4B2B;
         color: white;
         border: none;
         cursor: pointer;
         border-radius: 5px;
+/*right: 150px;
+       justify-content: right;*/
+
     }
 .popup {
         display: none;
