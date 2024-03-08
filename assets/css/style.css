@@ -76,14 +76,14 @@ h6 {
     /* Optional styling for the button */
     button {
         padding: 10px 20px;
-        font-size: 15px;
+        font-size: 20px;
         background-color: #EE4B2B;
         color: white;
         border: none;
         cursor: pointer;
         border-radius: 5px;
-/*right: 150px;
-       justify-content: right;*/
+ margin-left: 310px;*/
+       justify-content: right;
 
     }
 .popup {
